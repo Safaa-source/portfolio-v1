@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+   <title>Portfolio</title>
+   <style>
+    /* stuling for the whole webpage */
+    body{
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+    /* header styling */
+    header{
+        text-align: center;
+        position: sticky;
+        top: 0px;
+        padding: 10px 0px;
+        background-color: blueviolet;
+    }
+    .navbar ul li{
+        display: inline;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 0px 30px;
+    }
+    /* styling for home section */
+    .profile{
+        display: flex;
+        height: 90vh;
+    }
+    .intro h1 span{
+        color: blueviolet;
+    }
+    .text{
+        width: 60%;
+        text-align: justify;
+        padding: 0px 100px 0px 30px;
+    }
+    .pfp{
+        width: 40%;
+        text-align: center;
+    }
+    .pfp img{
+        border-radius: 8px;
+    }
+    .content{
+        margin: auto;
+    }
+    .intro p{
+        color: gray;
+        font-size: 14px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+    }
+    /* styling for skill section */
+    #section-2{
+        text-align: center;
+    }
+    .common{
+        background-color: white;
+        color: black;
+        width: 30%;
+        margin: auto 15px;
+        border-radius: 8px;
+        padding: 60px 20px 30px;
+    }
+    .common p{
+        color: gray;
+    }
+    .common h2{
+        font-weight: lighter;
+    }
+    #section-3{
+        text-align: center;
+    }
+    .whole{
+        display: flex;
+        height: 80vh;
+        
+    }
+    .one{
+        border: 1px solid gray;
+        width: 27%;
+        margin: auto 30px;
+        border-radius: 5px;
+    }
+    .one img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .one p{
+        text-align: justify;
+        color: gray;
+        padding: 50px 20px 15px 12px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    .one button{
+        border: none;
+        color: gray;
+        background-color: black;
+        margin: 10px;
+        font-size: larger;
+    }
+    /* styling on testimonial section */
+    #testimonial{
+        text-align: center;
+        margin: 7px 0px;
+        
+    }
+    .test-container{
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+    }
+    .test-content{
+        width: 50%;
+        margin: auto;
+    }
+    .test-img img{
+        border-radius: 50%;
+    }
+    .test-word{
+        text-align: justify;
+        padding: 0px 15px;
+        margin-left: 35px;
+    }
+    .test-word p{
+        color: gray;
+    }
+    .test-word button{
+        background-color: blueviolet;
+        padding: 13px 23px;
+        border-style: none;
+        color: white;
+        border-radius: 3px;
+        font-size: 11px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    footer{
+        text-align: center;
+        background-color: white;
+        color: black;
+        padding: 18px 0px;
+    }
+    
+    </style>
+   <body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="#section-1">Home</a></li>
+                <li><a href="#section-2">Skills</a></li>
+                <li><a href="#section-3">Work</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="section-1">
+        <div class="profile">
+            <div class="content text">
+                <div class="intro">
+                    <h1>John <span>Doe.</span></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta deserunt officia animi at accusantium ipsam voluptate ratione minus? Error similique mollitia maxime veritatis deserunt facilis possimus rerum ipsa nostrum illo!</p>
+                </div>
+            </div>
+            <div class=" content pfp">
+                <img src="./portrait.jpg" alt="my profile picture" height="300" width="250">
+            </div>
+        </div>
+    </section>
+    
+    <section id="section-2">
+        <h1>Specialized In</h1>
+        <div class="container">
+            <div class="common">
+                <h2>Skill 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum maiores itaque architecto earum enim!  </p>
+            </div>
+            <div class="common">
+                <h2>Skill 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum maiores itaque architecto earum enim!  </p>
+            </div>
+            <div class="common">
+                <h2>Skill 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum maiores itaque architecto earum enim!  </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <h1>Worked On</h1>
+        <div class="whole">
+            <div class="one div-1">
+                <img src="./portrait.jpg" alt="first-div" height="220" width="325">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod inventore quis illo, fugiat quam similique numquam incidunt voluptate non sed.</p>
+                <button>Continue reading</button>
+            </div>
+            <div class="one div-2">
+                <img src="./portrait.jpg" alt="first-div" height="220" width="325">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod inventore quis illo, fugiat quam similique numquam incidunt voluptate non sed.</p>
+                <button>Continue reading</button>
+            </div>
+            <div class="one div-3">
+                <img src="./portrait.jpg" alt="first-div" height="220" width="325">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod inventore quis illo, fugiat quam similique numquam incidunt voluptate non sed.</p>
+                <button>Continue reading</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <h1>Testimonials</h1>
+        <div class="test-container">
+            <div class="test-content test-word">
+                <h1>John Doe</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ducimus repellat officiis dolorem! Nam pariatur harum fuga fugit, recusandae laudantium? Deserunt possimus quia neque harum, natus mollitia. Repudiandae, quibusdam aliquid!</p>
+                <button>Read more ></button>
+            </div>
+            <div class="test-content test-img">
+                <img src="./portrait.jpg" alt="test image" width="300" height="300">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;JohnDoe</p>
+    </footer>
+   </body>
+</html>
